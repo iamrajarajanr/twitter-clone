@@ -31,7 +31,11 @@ function handleLikeClick (tweetId){
         return tweet.uuid === tweetId;
     })[0]
 
-console.log(targetTweetObj)
+targetTweetObj.likes++;
+if (islike === false){
+
+}
+render()
 }
 
 
@@ -84,3 +88,30 @@ feed.innerHTML = getfeedHtml()
 }
 
 render()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
