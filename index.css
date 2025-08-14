@@ -130,3 +130,11 @@ button{
 .fa-solid{
     color: #999;
 }
+
+.liked{
+    color: red;
+}
+
+.retweeted{
+    color: green;
+}
